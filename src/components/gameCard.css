@@ -1,0 +1,104 @@
+.schedule {
+    width: 580px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    display: table;
+
+   }
+
+
+.firstTeam {
+    display: inline-block;
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    float:left;
+    position: relative;
+    left: 16px;
+}
+
+div.firstTeam > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    float: left;
+
+
+
+}
+
+div.secondTeam > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    float: right;
+}
+
+img{
+    height: 50px;
+    position: relative;
+    top: 7px;
+
+}
+
+
+.secondTeam {
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    display: inline-block;
+    width: 40%;
+    float:right;
+    margin-right: 0;
+    position: relative;
+    right: 16px;
+
+}
+
+
+
+
+.teams {
+    width: 100%;
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+    height: auto;
+
+
+
+}
+
+.info {
+    width: 20%;
+
+    text-align: center;
+    font-family: system-ui;
+    position: relative;
+    margin: auto;
+    top: 25%;
+}
+
+
+
+.score {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.dateTime{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 8px;
+}
+

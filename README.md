@@ -1,0 +1,59 @@
+# Components for a sports website
+
+Welcome to the documentation for the Components for a sports website.
+This project provides components specifically designed
+for sport-themed websites. Data from a soccer league was used for the demonstration,
+but you can use the components for different sports. Using these components,
+you can easily create consistent and visually appealing UI elements for your
+sport-related web applications.
+
+## Available Components
+
+__Game card__: display information about sports events, including teams, date and time.
+
+__Statistic component__:displays the statistics of each team for the game. For example _fouls_, _yellow cards_, _offsides_, _shots_, etc.
+
+## Example of usage
+### Game card
+
+```
+import GameCard from "./components/GameCard";
+import formatDateTime from "./assets/functions";
+
+function App() {
+    return (
+        <GameCard
+            theme='dark'
+            score='1:0'
+            firstTeamInfo='Chornomorets'
+            secondTeamInfo='Dnipro-1'
+            dateTime={formatDateTime(new Date(2023,2,23,17,0))}
+        />
+    )
+}
+```
+
+
+### Statistic component
+
+```
+import Statistic from "./components/Statistic"
+
+function App() {
+    return (
+        <Statistic
+            type={'line'}
+            firstTeamInfo={6}
+            secondTeamInfo={4}
+            parameter={'Yellow cards'}
+            colorFirst={'#cd3131'}
+            colorSecond={'#2886e0'}
+        />
+  )
+}
+```
+
+## License
+This project is licensed under the [MIT License.](https://github.com/VikaHlukhova/Storybook/blob/main/LICENSE)
+
+
