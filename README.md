@@ -54,6 +54,6 @@ function App() {
 ```
 
 ## License
-This project is licensed under the [MIT License.](https://github.com/VikaHlukhova/Storybook/blob/main/LICENSE)
+This project is licensed under the [MIT License.](https://github.com/VikaHlukhova/storybook/blob/main/LICENSE.md)
 
 
